@@ -442,10 +442,10 @@
     }
 
     // 2. Adsgram & Telegram Integration
-    const ADSGRAM_BLOCK_ID = "YOUR_ADSGRAM_BLOCK_ID";
+    const ADSGRAM_BLOCK_ID = "45485";
     let AdController = null;
 
-    if (window.Adsgram && ADSGRAM_BLOCK_ID !== "45485") {
+    if (window.Adsgram && ADSGRAM_BLOCK_ID !== "YOUR_ADSGRAM_BLOCK_ID") {
       AdController = window.Adsgram.init({ blockId: ADSGRAM_BLOCK_ID });
     }
 
